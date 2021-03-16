@@ -1,9 +1,12 @@
 {
-  "name": "flow-bin",
-  "version": "0.146.0",
+  "name": "@nozbe/flow-bin",
+  "version": "0.146.0-arm64",
   "description": "Binary wrapper for Flow - A static type checker for JavaScript",
   "license": "MIT",
   "repository": "flowtype/flow-bin",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -22,6 +25,7 @@
   "files": [
     "flow-linux64-v*/flow",
     "flow-osx-v*/flow",
+    "flow-osx-arm64-v*/flow",
     "flow-win64-v*/flow.exe",
     "vendor",
     "cli.js",
